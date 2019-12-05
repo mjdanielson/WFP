@@ -299,5 +299,16 @@ In the Mapbox Studio style editor, you style symbols across zoom levels. Click t
   <img src="/image/zoom.png">
   </p>
 
+----------
+
+### Publish the style
 
 
+Now that you've got your map looking good, it's time to publish! Click the **Publish style** button at the top of the toolbar on the right side of the screen, then click **Publish** again on the next prompt.
+
+<p align='center'>
+  <img src="https://github.com/mjdanielson/University-of-Oregon/blob/master/Labs/Opioid-Tutorial/Images/publish_styel.png">
+</p>
+
+Hooray! Your style is now published! If you go back to your Styles page, you will see your new style at the top of the list.
+You can use your ‘Share URL’ to open your style in a new browser tab and share it with collaborators for review.
