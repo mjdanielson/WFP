@@ -277,3 +277,26 @@ Make sure to change the 'type' to **symbol** before selecting the data from the 
   <img src="/image/healthcare.png">
   </p>
 
+Select the Icon tab and click on Manage icons in your spritesheet. This opens the Images option in the top toolbar.Select cutsom image and upload this image to your sprite sheet [hosptial_image](https://github.com/mjdanielson/WFP/blob/master/image/Hospital-2.svg)
+
+<p align="center">
+  <img src="/image/icon.png">
+  </p>
+  
+Click the Style link in the hospital layer. Next, click **icon** and then select the hospital-2 icon that you just uploaded to your sprite sheet. 
+
+<p align="center">
+  <img src="/image/hospital-sprite.png">
+  </p>
+
+  
+ ### Data driven styling 
+
+In the Mapbox Studio style editor, you style symbols across zoom levels. Click the Style link in the hospital layer. Next, click on the icon and select  and then **Style across a zoom range**.
+
+<p align="center">
+  <img src="/image/zoom.png">
+  </p>
+
+
+
