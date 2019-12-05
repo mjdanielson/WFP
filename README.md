@@ -154,4 +154,94 @@ You can upload TIFF files as [tilesets](https://www.mapbox.com/help/define-tiles
 
 **Libraries**: Add your style to applications using one of our Mapbox libraries — You can also style your data here *👩‍💻*  (GL JS, IOS SDK…)
 
+----------
 
+### Uploading data to Studio
+
+To add the data to a style in Mapbox Studio, you need to upload it to your account. Go to your [**Tilesets**](https://www.mapbox.com/studio/tilesets) [page](https://www.mapbox.com/studio/tilesets) in Mapbox Studio to upload your data.
+
+On your Tilesets page, click the **New tileset** button. Select the geojson file containing your kindergarten data and upload it to your account. 
+
+<p align="center">
+  <img src="https://github.com/mjdanielson/University-of-Oregon/blob/master/Labs/Opioid-Tutorial/Images/tilesets.png">
+  </p>
+
+Try uploading another dataset. 
+
+----------
+
+### Inspect your tileset 
+
+When the upload is complete, click on the arrow next to the filename to open its information page.
+
+When you upload vector data to your Mapbox account, our servers convert it to a vector tileset so it can be rendered quickly and efficiently in the Mapbox Studio style editor and with Mapbox GL JS. The tileset information page shows some useful information about the tileset that was created from your uploaded data.
+
+<p align="center">
+  <img src="https://github.com/mjdanielson/University-of-Oregon/blob/master/Labs/Opioid-Tutorial/Images/tilesets.png">
+  </p>
+  
+ 
+----------
+
+### Create a new style
+
+After you've uploaded your data, it's time to create a new style so you can put it on the map! Go to your [Styles page](https://www.mapbox.com/studio/). Click the **New style** button. Find the *Basic Template* style and click **Create**.
+
+Excellent! Welcome to the Mapbox Studio style editor. This is where you will create your map style.
+
+<p align="center">
+  <img src="https://github.com/mjdanielson/University-of-Oregon/blob/master/Labs/Opioid-Tutorial/Images/basic_style.png">
+  </p>
+
+Rename the style so that you can find it later. Click into the title field in the upper left side of the screen to change the title from Basic Template to ‘Mapbox Workshop’.
+
+
+*You can always refer to the* [*Mapbox Studio Manual*](https://www.mapbox.com/studio-manual/reference/styles/) *for more information on getting started.*
+
+----------
+
+### Add a new layer
+
+To add and style your data, you will need to add a **new layer** to the map. At the top of the layer panel, click **+ Add layer** and select your overdose rate by state data layer that you just uploaded as a tileset. 
+
+
+<p align="center">
+  <img src="https://github.com/mjdanielson/University-of-Oregon/blob/master/Labs/Opioid-Tutorial/Images/add-layer.png">
+  </p>
+
+
+The editor is now showing your map in “x-ray mode.” X-ray mode shows all the data in the sources added to the style, regardless of whether there is a layer to style it.
+
+In the *New layer* panel, look in the list of *Data sources* for the Opioid source. Click the tileset and then select the source layer as the source for this new style layer.
+
+The default Basic map view is not centered on the United States. Mapbox Studio recognizes that the data you have uploaded is focused on a different location, so it displays the message *"This tileset isn't available from your map view."* Click **Go to data**, and the map view will refocus on the United States.
+
+
+
+<p align="center">
+  <img src="https://github.com/mjdanielson/University-of-Oregon/blob/master/Labs/Opioid-Tutorial/Images/xray1.png">
+  </p>
+
+
+
+Your new layer will be highlighted on the x-ray map.
+
+
+
+<p align="center">
+  <img src="">
+  </p>
+
+
+
+Click the **Style** tab and the map will switch back to style mode displaying your new layer. You will see the data on the map with a default style (black with 100% opacity).
+
+
+<p align="center">
+  <img src=""
+       </p>
+
+
+You can rename a layer by clicking on the name of the layer at the top of the panel. Rename your new layer overdose data. Next, add your prescription data to the map and rename the layer to **kindergarten**.
+
+----------
