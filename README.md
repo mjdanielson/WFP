@@ -293,7 +293,7 @@ Click the Style link in the hospital layer. Next, click **icon** and then select
   
  ### Style across a zoom range 
 
-In the Mapbox Studio style editor, you style symbols across zoom levels. Click the Style link in the hospital layer. Next, click on the icon and select  and then **Style across a zoom range**.
+In the Mapbox Studio style editor, you can style symbols across zoom levels. Click the Style link in the hospital layer. Next, click on the icon and select  and then **Style across a zoom range**.
 
 <p align="center">
   <img src="/image/zoom.png">
