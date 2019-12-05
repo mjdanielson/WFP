@@ -262,6 +262,11 @@ Under *Choose a numeric data field to interpolate over a range*, select amount_c
   <img src="/image/Screen%20Shot%202019-12-04%20at%205.23.20%20PM.png">
   </p>
 
+Before moving on to the next step, make the **kindergarten** layer invisible. 
+
+<p align="center">
+  <img src="/image/invisible.gif">
+  </p>
 
 ----------
 
@@ -277,7 +282,7 @@ Make sure to change the 'type' to **symbol** before selecting the data from the 
   <img src="/image/healthcare.png">
   </p>
 
-Select the Icon tab and click on Manage icons in your spritesheet. This opens the Images option in the top toolbar.Select cutsom image and upload this image to your sprite sheet [hosptial_image](https://github.com/mjdanielson/WFP/blob/master/image/Hospital-2.svg)
+Select the **Icon** tab and click on **Manage icons** in your spritesheet. This opens the Images option in the top toolbar. Select cutsom image and upload this image to your sprite sheet [hosptial_image](https://github.com/mjdanielson/WFP/blob/master/image/Hospital-2.svg)
 
 <p align="center">
   <img src="/image/icon.png">
@@ -298,6 +303,9 @@ In the Mapbox Studio style editor, you can style symbols across zoom levels. Cli
 <p align="center">
   <img src="/image/zoom.png">
   </p>
+
+
+Before publishing your map, make your **kindergarten** layer visible again.  
 
 ----------
 
