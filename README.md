@@ -289,8 +289,9 @@ Click the Style link in the hospital layer. Next, click **icon** and then select
   <img src="/image/hospital-sprite.png">
   </p>
 
+----------
   
- ### Data driven styling 
+ ### Style across a zoom range 
 
 In the Mapbox Studio style editor, you style symbols across zoom levels. Click the Style link in the hospital layer. Next, click on the icon and select  and then **Style across a zoom range**.
 
