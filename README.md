@@ -17,12 +17,15 @@
 
 Note: The data was prepared for you to use. This lesson doesn’t go into data clean-up and geo-processing.
 
+[Healthcare Facilities](https://github.com/mjdanielson/WFP/blob/master/Data/Healthcare_Facilities.geojson)
+[Kindergarten school locations](https://github.com/mjdanielson/WFP/blob/master/Data/Kindergarten.geojson)
+
 
 ----------
 
 **Resources to further your knowledge:**
 
-🔗 [Our awesome glossary](https://docs.mapbox.com/help/glossary/) from our Doc Queens 👑
+🔗 [Glossary](https://docs.mapbox.com/help/glossary/) 
 
 🔗 [Our Election Guide](https://blog.mapbox.com/visualizing-election-data-a-guide-to-mapbox-gl-expressions-92cc469b8dfd) covers a bunch of our core elements, like expressions and feature-state
 
@@ -166,7 +169,7 @@ On your Tilesets page, click the **New tileset** button. Select the geojson file
   <img src="https://github.com/mjdanielson/University-of-Oregon/blob/master/Labs/Opioid-Tutorial/Images/tilesets.png">
   </p>
 
-Try uploading another dataset. 
+Try uploading the **healthcare facilities** dataset. 
 
 ----------
 
@@ -202,7 +205,7 @@ Rename the style so that you can find it later. Click into the title field in th
 
 ### Add a new layer
 
-To add and style your data, you will need to add a **new layer** to the map. At the top of the layer panel, click **+ Add layer** and select your overdose rate by state data layer that you just uploaded as a tileset. 
+To add and style your data, you will need to add a **new layer** to the map. At the top of the layer panel, click **+ Add layer** and select your **kindergarten** layer that you just uploaded as a tileset. 
 
 
 <p align="center">
@@ -258,3 +261,19 @@ Under *Choose a numeric data field to interpolate over a range*, select amount_c
 <p align="center">
   <img src="/image/Screen%20Shot%202019-12-04%20at%205.23.20%20PM.png">
   </p>
+
+
+----------
+
+### Add a layer as a symbol
+
+There are many different ways to style point data in Mapbox Studio, Mapbox GL JS, and the Mapbox iOS and Android SDKs. In this tutorial, we’ll walk you through how to visualize your point data with custom icons and markers. 
+
+First add a **new layer** to the map. At the top of the layer panel, click **+ Add layer** and select your **healthcare facilities** data layer that you just uploaded as a tileset. 
+
+Make sure to change the 'type' to **symbol** before selecting the data from the layer menu. 
+
+<p align="center">
+  <img src="/image/healthcare.png">
+  </p>
+
