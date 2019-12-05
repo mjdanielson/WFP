@@ -17,8 +17,9 @@
 
 Note: The data was prepared for you to use. This lesson doesn’t go into data clean-up and geo-processing.
 
-[Healthcare Facilities](https://github.com/mjdanielson/WFP/blob/master/Data/Healthcare_Facilities.geojson)
-[Kindergarten school locations](https://github.com/mjdanielson/WFP/blob/master/Data/Kindergarten.geojson)
+- [Healthcare Facilities](https://github.com/mjdanielson/WFP/blob/master/Data/Healthcare_Facilities.geojson)
+- [Kindergarten school locations](https://github.com/mjdanielson/WFP/blob/master/Data/Kindergarten.geojson)
+- [Healthcare Facility Icon](https://github.com/mjdanielson/WFP/blob/master/image/Hospital-2.svg)
 
 
 ----------
