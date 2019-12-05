@@ -190,7 +190,7 @@ After you've uploaded your data, it's time to create a new style so you can put 
 Excellent! Welcome to the Mapbox Studio style editor. This is where you will create your map style.
 
 <p align="center">
-  <img src="https://github.com/mjdanielson/University-of-Oregon/blob/master/Labs/Opioid-Tutorial/Images/basic_style.png">
+  <img src="/image/Studio.png>
   </p>
 
 Rename the style so that you can find it later. Click into the title field in the upper left side of the screen to change the title from Basic Template to ‘Mapbox Workshop’.
@@ -212,9 +212,9 @@ To add and style your data, you will need to add a **new layer** to the map. At 
 
 The editor is now showing your map in “x-ray mode.” X-ray mode shows all the data in the sources added to the style, regardless of whether there is a layer to style it.
 
-In the *New layer* panel, look in the list of *Data sources* for the Opioid source. Click the tileset and then select the source layer as the source for this new style layer.
+In the *New layer* panel, look in the list of *Data sources* for the Kindergarten source. Click the tileset and then select the source layer as the source for this new style layer.
 
-The default Basic map view is not centered on the United States. Mapbox Studio recognizes that the data you have uploaded is focused on a different location, so it displays the message *"This tileset isn't available from your map view."* Click **Go to data**, and the map view will refocus on the United States.
+The default Basic map view is not centered on the Nicaragua. Mapbox Studio recognizes that the data you have uploaded is focused on a different location, so it displays the message *"This tileset isn't available from your map view."* Click **Go to data**, and the map view will refocus on Nicaragua or type Nicaragua into the search bar.
 
 
 
@@ -227,9 +227,8 @@ The default Basic map view is not centered on the United States. Mapbox Studio r
 Your new layer will be highlighted on the x-ray map.
 
 
-
 <p align="center">
-  <img src="">
+  <img src="/image/Search.gif">
   </p>
 
 
@@ -237,11 +236,25 @@ Your new layer will be highlighted on the x-ray map.
 Click the **Style** tab and the map will switch back to style mode displaying your new layer. You will see the data on the map with a default style (black with 100% opacity).
 
 
-<p align="center">
-  <img src=""
-       </p>
+You can rename a layer by clicking on the name of the layer at the top of the panel. Rename your new layer **kindergarten**.
 
-
-You can rename a layer by clicking on the name of the layer at the top of the panel. Rename your new layer overdose data. Next, add your prescription data to the map and rename the layer to **kindergarten**.
 
 ----------
+
+### Style the layer
+
+Each layer in Studio can be styled individually by clicking on the name of the layer in the Layer list. There are several layer types to choose from. Each layer type has a unique set of layer properties that can be specified. There are a few options for specifying property values. You can pick values individually, based on a data attribute, based on the zoom level, or the value of another property. For more information on layer types and their styling rules check out this [reference guide](https://docs.mapbox.com/studio-manual/reference/styles/).
+
+
+----------
+
+### Data driven styling 
+
+In the Mapbox Studio style editor, you create graduate symbols based on numeric attributes. Click the Style link in the kindergarten layer. Next, click **Radius** and then **Style across data range**.
+
+Under *Choose a numeric data field to interpolate over a range*, select amount_of_child_f (number of female children) to style the layer by the number of females students at each school. 
+
+
+<p align="center">
+  <img src="/image/Screen%20Shot%202019-12-04%20at%205.23.20%20PM.png">
+  </p>
