@@ -148,36 +148,6 @@ Now that we’ve initialized the webmap, let’s try to make some changes to our
     <img src="/image/Jsfiddle_style.png">
     </p>
 
-----------
-
-## Add navigation controls
-
-Let’s try modifying the code to add a new element to the map. Currently, you can zoom in and out using your mouse, but we want to add navigation controls (zoom in, zoom out, and north arrow) to make the zooming functions more obvious to our end users.
-
-To get started, check out this code: [https://www.mapbox.com/mapbox-gl-js/example/navigation/](https://www.mapbox.com/mapbox-gl-js/example/navigation/)
-
-What part of the example is missing for your current code? Copy and paste the navigation control function into your code after your `var = map` element but before the ```</script>``` and click ‘Run’ when you have finished.  
-
-```javascript
-
-mapboxgl.accessToken = 'pk.eyJ1IjoibWpkYW5pZWxzb24iLCJhIjoiY2p2bzFlbnZ5MW5pbTN5cGJ2YWp2MW9vaiJ9.kAaZq3iyJwvrMLK7XDs_qw';
-var map = new mapboxgl.Map({
-    container: 'map', // container id
-    style: 'mapbox://styles/mjdanielson/ck3s0iii80io11co4w5duvd86', // stylesheet location
-    center: [ -85.045166015625,
-          12.704650508287893], // starting position [lng, lat]
-    zoom: 6 // starting zoom
-});
-
-// Add zoom and rotation controls to the map.
-map.addControl(new mapboxgl.NavigationControl());
-
-
-</script>
-
-</body>
-</html>
-```
 
 ----------
 
