@@ -252,7 +252,7 @@ Each layer in Studio can be styled individually by clicking on the name of the l
 
 In the Mapbox Studio style editor, you create graduate symbols based on numeric attributes. Click the Style link in the kindergarten layer. Next, click **Radius** and then **Style across data range**.
 
-Under *Choose a numeric data field to interpolate over a range*, select amount_of_child_f (number of female children) to style the layer by the number of females students at each school. 
+Under *Choose a numeric data field to interpolate over a range*, select amount_child_f (number of female children) to style the layer by the number of females students at each school. 
 
 
 <p align="center">
