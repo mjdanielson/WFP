@@ -69,6 +69,7 @@ To begin, we will be using a sample code created by the documentation team at Ma
 </head>
 <body>
 
+<nav id='menu'></nav>    
 <div id='map'></div>
 <script>
 mapboxgl.accessToken = 'pk.eyJ1IjoibWpkYW5pZWxzb24iLCJhIjoiY2p2bzFlbnZ5MW5pbTN5cGJ2YWp2MW9vaiJ9.kAaZq3iyJwvrMLK7XDs_qw';
